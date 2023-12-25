@@ -47,5 +47,26 @@ li a:hover {
     margin-right: 4px;
   }
 }
+@media (min-width: 300px) {
+  div.card {
+    overflow: hidden;
+    margin-left: 43px !important;
+  }
+}
+div.card {
+  border-radius: 10px;
+}
+
+@media (min-width: 300px) {
+  div.page2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 300px) {
+  div.page2 img {
+    width: 40px;
+  }
+}
 
 /*# sourceMappingURL=home.css.map */
