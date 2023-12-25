@@ -1,0 +1,19 @@
+@mixin background ($bgc1: #5814a2, $bgc2: #bd00ff, $deg: 20deg) {
+    background-color: $bgc1;
+    background: $bgc1;
+    background: $bgc2;
+    background-color: $bgc2;
+}
+
+@mixin width-img ($widthimg: 60px) {
+    width: $widthimg;
+}
+
+@font-face {
+    font-family: btitr;
+    src: url(B\ Titr\ Bold_0.ttf);
+}
+
+body {
+    @include background
+}
